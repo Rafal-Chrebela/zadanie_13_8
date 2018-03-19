@@ -10,13 +10,13 @@ server.on("request", function(request, response) {
       response.end();
     });
   } else {
-    response.setHeader("Content-Type", "image/jpg");
+    response.setHeader("Content-Type", "image/gif");
     response.statusCode = 404;
-    fs.readFile("./cat.jpg", function(err, data) {
+    fs.readFile("./404.gif", function(err, data) {
       response.write(data);
       response.end();
     });
   }
 });
 
-server.listen(8080);
+server.listen(8083);
