@@ -1,0 +1,17 @@
+{
+  "name": "index.js",
+  "version": "1.0.0",
+  "description": "Testowy plik package.json do naukiw npm'a",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error; no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": ["nauka", "npm", "node"],
+  "author": "Rafal",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0"
+  }
+}
